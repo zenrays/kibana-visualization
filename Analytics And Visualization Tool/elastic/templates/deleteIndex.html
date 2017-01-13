@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Delete Index</title>
+	<style>
+		#title{
+			position: relative;
+			text-align:  center;
+			padding: 1em;
+		}
+		body{
+			margin: 0;
+			position: relative;
+			background-color: #4d94ff;
+		}
+		#sec1{
+			position: relative;
+			top: 2em;
+			left:6em;
+			height: 33em;
+			width: 80%;
+			background-color: #99c2ff;
+		}
+		#delete{
+			position: relative;
+			left:1em;
+			font-size: 2em;
+		}
+		#deleteInput{
+			position: relative;
+			left:10em;
+			height: 1.5em;
+			width: 30em;
+			border-style: none;
+			border-radius: 0.5em;
+			font-size: 0.5em;
+		
+		}
+		#GoLoad{
+			position: relative;
+			left:40em;
+			top:2em;
+			height:2.7em;
+			width: 6em;
+			background-color: white;
+			text-decoration: none;
+			border-style: none;
+			border-radius: 1em;
+		}
+		#GoLoad:hover{
+			background-color:  #006680;
+			color:white;
+			animation-duration: 1s;
+			transform: scale(1.1);
+
+		}
+	</style>
+</head>
+<body>
+
+	<section id="sec1">
+	<form action="http://localhost:8000/elastic/api/deleteInput/" method="GET">
+		<h2 id="title">Djano project</h2>
+		<hr>
+		<p id="delete">Index name to be deleted: <input type="text" name="deleteInput" id="deleteInput" > </p>
+		<input type="submit" value="submit" id="GoLoad" />
+		</form>
+	</section>
+
+</body>
+</html>
+		

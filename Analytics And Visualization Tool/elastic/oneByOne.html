@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>One data Input</title>
+	<link rel="stylesheet" type="text/css" href="/static/oneByOne.css">
+	<script src="/static/jquery.js"></script>
+</head>
+<body>
+	<section id="sec1">
+	<form method="GET" id="form1">
+		<h2 id="title">Djano project</h2>
+		<hr>
+		<p id="ref">Enter the Index you want to add data to:<input type="text" name="indexNamePath" id="refPath"></p>
+		<input type="Submit" value="Load the Columns" name="LoadColumn" id="GoLoad">
+		</form>
+		</section>
+		<script>
+			$('#form1').on('submit',function(event){
+				event.preventDefault();
+				console.log("form submitted");
+				create_post();
+			});
+			function create_post(){
+				console.log("create_post is working man.");
+				console.log($('#form1').val());
+			}
+		</script>
+		<script href="/static/main.js"></script>
+</body>	
+</html>

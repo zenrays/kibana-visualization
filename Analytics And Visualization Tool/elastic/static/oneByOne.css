@@ -1,0 +1,56 @@
+		#title{
+			position: relative;
+			text-align:  center;
+			padding: 1em;
+		}
+		body{
+			margin: 0;
+			position: relative;
+			background-color: #4d94ff;
+		}
+		#sec1{
+			position: relative;
+			top: 2em;
+			left:6em;
+			height: 33em;
+			width: 85% ;
+			background-color: #99c2ff;
+		}
+		#ref{
+			position: relative;
+			left:1em;
+			font-size: 2em;
+		}
+		.names{
+			position: relative;
+			left:3em;
+			font-size: 2em;
+		}
+		.refPath{
+			position: relative;
+			left:15em;
+			height: 1.5em;
+			width: 30em;
+			border-style: none;
+			border-radius: 0.5em;
+			font-size: 0.5em;
+		}
+		#GoLoad{
+			position: relative;
+			left:38em;
+			top:2em;
+			height:2.7em;
+			width: 10em;
+			background-color: white;
+			text-decoration: none;
+			border-style: none;
+			border-radius: 1em;
+			overflow: none;
+		}
+		#GoLoad:hover{
+			background-color:  #006680;
+			color:white;
+			animation-duration: 1s;
+			transform: scale(1.1);
+
+		}

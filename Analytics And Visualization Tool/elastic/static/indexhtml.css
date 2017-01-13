@@ -1,0 +1,69 @@
+	<style>
+		#title{
+			position: relative;
+			text-align:  center;
+			padding: 1em;
+		}
+		body{
+			margin: 0;
+			position: relative;
+			background-color: #4d94ff;
+		}
+		#sec1{
+			position: relative;
+			top: 2em;
+			left:6em;
+			height: 33em;
+			width: 85% ;
+			background-color: #99c2ff;
+		}
+		#path{
+			position: relative;
+			left:2em;
+			font-size: 2em;
+			font:;
+		}
+		#pathId{
+			position: relative;
+			left:20em;
+			height: 1.5em;
+			width: 30em;
+			border-style: none;
+			border-radius: 0.5em;
+			font-size: 0.5em;
+		}
+		
+		#GoLoad{
+			position: relative;
+			left:35em;
+			top:2em;
+			height:2.7em;
+			width: 6em;
+			background-color: white;
+			text-decoration: none;
+			border-style: none;
+			border-radius: 1em;
+		}
+		#GoLoad:hover{
+			background-color:  #006680;
+			color:white;
+			animation-duration: 1s;
+			transform: scale(1.1);
+
+		}
+		#index{
+			position: relative;
+			top: ;
+			left:2em;
+			font-size:2em;
+		}
+		#indexName{
+			position: relative;
+			left:19em;
+			height: 1.5em;
+			width: 30em;
+			border-style: none;
+			border-radius: 0.5em;
+			font-size: 0.5em;
+		}
+		</style>
